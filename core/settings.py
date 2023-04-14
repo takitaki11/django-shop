@@ -43,6 +43,11 @@ INSTALLED_APPS = [
     'drf_yasg',
     'django_filters',
     'djoser',
+
+    'apps.product',
+    'apps.order',
+    'apps.category',
+    'apps.review'
 ]
 
 MIDDLEWARE = [
